@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="card"></div>
+        <nav>
+            <div class="navbar"><h2  class="animate__animated animate__tada">Cloudy-Sky</h2>
+            <input type="text" placeholder="Enter your Location for Weather!" id="city"  class="animate__animated animate__tada">
+            <input type="button" value="submit" id="Submit"  class="animate__animated animate__tada" onclick="getWeather()">
+            <ul  class="animate__animated animate__tada">
+                <li>Home</li>
+                <li>Login</li>
+                <li>Sign up</li>
+            </ul>
+            </div>
+        </nav>
+        <section>
+        <div class="card"><h1>WEATHER FORCAST</h1></div>
+    </section>
     </div>
     
     <script src="app.js"></script>
