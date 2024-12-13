@@ -1,0 +1,14 @@
+.container{
+        background-position: center;
+        width:100%;
+        height: 100%;
+}
+.card {
+    backdrop-filter: blur(3px) saturate(200%);
+    -webkit-backdrop-filter: blur(3px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.29);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    height:400px;
+    width:600px;
+}
