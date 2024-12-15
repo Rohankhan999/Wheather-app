@@ -2,13 +2,14 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+    background: linear-gradient(to right, #ffc500, #c21500);
+}
 .container {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-    background: linear-gradient(to right, #ffc500, #c21500);
 }
  nav {
     width: 100%;
