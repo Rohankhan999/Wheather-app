@@ -19,13 +19,13 @@ fetch(
       <h3> Humidity ${Math.round(data.main.humidity)}°c</h3>
       <h3> Wind Speed ${(data.wind.speed)}°c</h3>`
       if (data.weather[0].main === "Clear") {
-        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/1249/1249115.png" alt="Sunny" width="120px" height="120px">`;
+        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/1249/1249115.png" alt="Sunny" width="120px" height="120px"  margin-top="150px">`;
       } else if (data.weather[0].main === "Rain") {
-        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/9116/9116642.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid" alt="Rain" width="120px" height="120px">`;
+        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/9116/9116642.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid" alt="Rain" width="120px" height="120px"  margin-top="150px">`;
       } else if (data.weather[0].main === "Clouds") {
-        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/14855/14855054.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid alt="Clouds" width="120px" height="120px">`;
+        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/14855/14855054.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid alt="Clouds" width="120px" height="120px"  margin-top="150px">`;
       } else {
-        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/3026/3026315.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid" alt="Default Weather" width="120px" height="120px">`;
+        Right.innerHTML += `<img id="right" src="https://cdn-icons-png.freepik.com/256/3026/3026315.png?ga=GA1.1.1507680453.1719128961&semt=ais_hybrid" alt="Default Weather" width="120px" height="120px" margin-top="150px">`;
       }
 })
 .catch(function(err){
