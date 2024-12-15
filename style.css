@@ -80,7 +80,17 @@ section {
     width: 100%;
     height: 100%;
 }
-
+.sections{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 50%;
+}
+.Right{
+    width: 50%;
+    height: 50%;
+}
 .card {
     background-color: black;
     width: 800px;
