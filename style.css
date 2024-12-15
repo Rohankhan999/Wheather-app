@@ -148,9 +148,8 @@ span {
 }
 
 #search {
-    margin-top: 36px;
-    position: absolute;
-    margin-left: 270px;
+    margin-top: 35px;
+    margin-left: -30px;
 }
 
 #cite {
@@ -242,7 +241,8 @@ span {
         color: whitesmoke;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 40px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        margin-left: -50px;
         font-size: 20px;
     }
 
@@ -276,6 +276,7 @@ span {
         border: 3px whitesmoke dashed;
         width: 11rem;
         text-align: center;
+        margin-left: -50px;
     }
 
     ::placeholder {
@@ -284,9 +285,8 @@ span {
     }
 
     #search {
-        margin-top: 35px;
-        position: absolute;
-        margin-left: 200px;
+        margin-top: 36px;
+        margin-left: -40px;
         width: 15px;
         height: 15px;
     }
