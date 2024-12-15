@@ -242,7 +242,7 @@ span {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 40px;
         /* margin-left: 10px; */
-        margin-left: -50px;
+        margin-left: 10px;
         font-size: 20px;
     }
 
@@ -276,7 +276,7 @@ span {
         border: 3px whitesmoke dashed;
         width: 11rem;
         text-align: center;
-        margin-left: -50px;
+        margin-left: -30px;
     }
 
     ::placeholder {
@@ -312,5 +312,13 @@ span {
         margin-top: 0px;
         font-size: 15px;
         margin-top:15px;
+    }
+    #logo{
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 40px;
+        /* margin-left: 10px; */
+        margin-left: -30px;
+        font-size: 20px;
     }
 }
