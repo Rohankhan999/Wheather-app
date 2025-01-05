@@ -2,13 +2,10 @@ let city = document.querySelector('#city')
 let card = document.querySelector('.card')
 let Right = document.querySelector('.right')
 let left = document.querySelector('.left')
-const toggleBtn = document.getElementById('toggleBtn');
-const navMenu = document.getElementById('navMenu');
+c
 
 
-toggleBtn.addEventListener('click', () => {
-    navMenu.classList.toggle('hidden');
-});
+
 function getWeather(){
 fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=392fc470c1ac8b42b2f40951a9a96cc4&units=metric`)
